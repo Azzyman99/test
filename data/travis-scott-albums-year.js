@@ -7,7 +7,7 @@
 				"Year":"2015",
         "Label":"Grand Hustle, Epic",
 				"Sales":"110,000",
-				"Image":"skyfall.jpg"
+				"Image":"rodeo.jpg"
 			  },
         {
 				"Album":2,
@@ -15,7 +15,7 @@
 				"Year":"2016",
         "Label":"Grand Hustle, Epic",
 				"Sales":"53,000",
-				"Image":"skyfall.jpg"
+				"Image":"birds.jpg"
 			  },
         {
 				"Album":3,
@@ -23,7 +23,7 @@
 				"Year":"2018",
         "Label":"Grand Hustle, Epic, Cactus Jack",
 				"Sales":"648,200",
-				"Image":"skyfall.jpg"
+				"Image":"astroworld.jpg"
 			  }
 
 			]
