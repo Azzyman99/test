@@ -216,7 +216,7 @@
 				"Director":"Martin Campbell",
 				"Producers":"Michael G. Wilson and Barbara Broccoli",
 				"Writers":"Michael France, Jeffrey Caine, Kevin Wade and Bruce Feirstein",
-				"Composer":"Éric Serra",
+				"Composer":"ï¿½ric Serra",
 				"Bond":"Pierce Brosnan",
 				"Budget":"$42,000,000.00",
 				"BoxOffice":"$156,167,015.00",
