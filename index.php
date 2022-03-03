@@ -3,7 +3,7 @@
 <title>NBA Teams Web Service Demo</title>
 <style>
   body {font-family:georgia;}
-  .album{
+  .team{
     border:1px solid #E77DC2;
     border-radius: 5px;
     padding: 5px;
@@ -29,9 +29,10 @@
 function nbaTemplate(team){
   return `<div class="team">
       <b>Title: <b> ${team.Name}<br />
-      <b>Year: <b> ${team.Location}<br />
-      <b>Label: <b> ${team.Championships}<br />
-      <b>Sales: <b> ${team.LastChip}<br />
+      <b>Location: <b> ${team.Location}<br />
+      <b>Division: <b> ${team.Division}<br />
+      <b>Championships: <b> ${team.Championships}<br />
+      <b>Last Championship: <b> ${team.LastChip}<br />
 
       <div class="pic"><img src="thumbnails/${team.Image}"/></div>
     </div>`;
@@ -56,7 +57,7 @@ $(document).ready(function() {
         $("#nbateams").html("");
         
         // loops through films and adds to page
-        $.each(data.albums, function(key,value){
+        $.each(data.teams, function(key,value){
 
           let str = nbaTemplate(value); // is the array
 

@@ -7,7 +7,7 @@
 				"Division":"Pacific",
         "Championships":"17",
 				"LastChip":"2020",
-				"Image":""
+				"Image":"lakers.jpg"
 			  },
         {
 				"Name":"Golden State Warriors",
@@ -15,7 +15,7 @@
 				"Division":"Pacific",
         "Championships":"6",
 				"LastChip":"2018",
-				"Image":""
+				"Image":"gsw.jpg"
 			  },
         {
 				"Name":"Bulls",
@@ -23,7 +23,7 @@
 				"Division":"Central",
         "Championships":"6",
 				"LastChip":"1998",
-				"Image":""
+				"Image":"bulls.jpg"
 			  },
         {
 				"Name":"Pistons",
@@ -31,7 +31,7 @@
 				"Division":"Central",
         "Championships":"3",
 				"LastChip":"2004",
-				"Image":""
+				"Image":"pistons.jpg"
 			  },
         {
 				"Name":"Pacers",
@@ -39,7 +39,7 @@
 				"Division":"Central",
         "Championships":"3",
 				"LastChip":"1973",
-				"Image":""
+				"Image":"pacers.jpg"
 			  },
         {
 				"Name":"Bucks",
@@ -47,15 +47,15 @@
 				"Division":"Central",
         "Championships":"2",
 				"LastChip":"2021",
-				"Image":""
-			  }
+				"Image":"bucks.jpg"
+			  },
         {
 				"Name":"Cavaliers",
 				"Location":"Cleveland",
 				"Division":"Central",
         "Championships":"1",
 				"LastChip":"2016",
-				"Image":""
+				"Image":"cavs.jpg"
 			  },
         {
 				"Name":"Kings",
@@ -63,7 +63,7 @@
 				"Division":"Pacific",
         "Championships":"1",
 				"LastChip":"1951",
-				"Image":""
+				"Image":"kings.jpg"
 			  },
         {
 				"Name":"Clippers",
@@ -71,7 +71,7 @@
 				"Division":"Pacific",
         "Championships":"0",
 				"LastChip":"N/A",
-				"Image":""
+				"Image":"clippers.jpg"
 			  },
         {
 				"Name":"Suns",
@@ -79,7 +79,7 @@
 				"Division":"Pacific",
         "Championships":"0",
 				"LastChip":"N/A",
-				"Image":""
+				"Image":"suns.jpg"
 			  }
 			]
 }
