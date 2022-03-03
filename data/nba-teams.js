@@ -1,0 +1,85 @@
+{
+	"title": "NBA Teams",
+	"teams":[
+        {
+				"Name":"Lakers",
+				"Location":"Los Angeles",
+				"Division":"Pacific",
+        "Championships":"17",
+				"LastChip":"2020",
+				"Image":""
+			  },
+        {
+				"Name":"Golden State Warriors",
+				"Location":"San Francisco",
+				"Division":"Pacific",
+        "Championships":"6",
+				"LastChip":"2018",
+				"Image":""
+			  },
+        {
+				"Name":"Clippers",
+				"Location":"Los Angeles",
+				"Division":"Pacific",
+        "Championships":"0",
+				"LastChip":"N/A",
+				"Image":""
+			  },
+        {
+				"Name":"Suns",
+				"Location":"Phoenix",
+				"Division":"Pacific",
+        "Championships":"0",
+				"LastChip":"N/A",
+				"Image":""
+			  },
+        {
+				"Name":"Kings",
+				"Location":"Sacramento",
+				"Division":"Pacific",
+        "Championships":"1",
+				"LastChip":"1951",
+				"Image":""
+			  },
+        {
+				"Name":"Bulls",
+				"Location":"Chicago",
+				"Division":"Central",
+        "Championships":"6",
+				"LastChip":"1998",
+				"Image":""
+			  },
+        {
+				"Name":"Cavaliers",
+				"Location":"Cleveland",
+				"Division":"Central",
+        "Championships":"1",
+				"LastChip":"2016",
+				"Image":""
+			  },
+        {
+				"Name":"Pistons",
+				"Location":"Detroit",
+				"Division":"Central",
+        "Championships":"3",
+				"LastChip":"2004",
+				"Image":""
+			  },
+        {
+				"Name":"Pacers",
+				"Location":"Indiana",
+				"Division":"Central",
+        "Championships":"3",
+				"LastChip":"1973",
+				"Image":""
+			  },
+        {
+				"Name":"Bucks",
+				"Location":"Milwaukee",
+				"Division":"Central",
+        "Championships":"2",
+				"LastChip":"2021",
+				"Image":""
+			  }
+			]
+}

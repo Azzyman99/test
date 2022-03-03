@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Travis Scott Web Service Demo</title>
+<title>NBA Teams Web Service Demo</title>
 <style>
   body {font-family:georgia;}
   .album{
@@ -17,20 +17,24 @@
     top:10px;
   }
 
+  .pic img{
+    max-width:70px;
+  }
+
 </style>
 <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 
-function travisTemplate(album){
-  return `<div class="album">
-      <b>Title: <b> ${album.Title}<br />
-      <b>Year: <b> ${album.Year}<br />
-      <b>Label: <b> ${album.Label}<br />
-      <b>Sales: <b> ${album.Sales}<br />
+function nbaTemplate(team){
+  return `<div class="team">
+      <b>Title: <b> ${team.Name}<br />
+      <b>Year: <b> ${team.Location}<br />
+      <b>Label: <b> ${team.Championships}<br />
+      <b>Sales: <b> ${team.LastChip}<br />
 
-      <div class="pic"><img src="thumbnails/${album.Image}"/></div>
-    </div>`
+      <div class="pic"><img src="thumbnails/${team.Image}"/></div>
+    </div>`;
 }
   
 $(document).ready(function() {  
@@ -46,17 +50,17 @@ $(document).ready(function() {
       request.done(function( data ) {
        console.log(data);
         // place the title on the page
-        $("#albumtitle").html(data.title);
+        $("#nbatitle").html(data.title);
 
         // clears the previous films
-        $("#albums").html("");
+        $("#nbateams").html("");
         
         // loops through films and adds to page
         $.each(data.albums, function(key,value){
 
-          let str = travisTemplate(value); // is the array
+          let str = nbaTemplate(value); // is the array
 
-          $("<div></div>").html(str).appendTo("#albums");
+          $("<div></div>").html(str).appendTo("#nbateams");
           
         });
 
@@ -79,12 +83,12 @@ $(document).ready(function() {
 </script>
 </head>
 	<body>
-	<h1>Travis Scott Web Service</h1>
-		<a href="year" class="category">Travis Scott Albums By Year</a><br />
-		<a href="box" class="category">Travis Scott Albums By Sales</a>
-		<h3 id="albumtitle">Title Will Go Here</h3>
-		<div id="albums">
-			<p>Albums will go here</p>
+	<h1>NBA Teams Web Service</h1>
+		<a href="year" class="category">NBA Teams</a><br />
+		<a href="box" class="category">NBA Teams By Championships</a>
+		<h3 id="nbatitle">Title Will Go Here</h3>
+		<div id="nbateams">
+			<p>NBA Teams will go here</p>
 		</div>
     <!-- <div class="film">
       <b>Film: <b> 1<br />
